@@ -1,0 +1,3 @@
+F:\qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\gongjianshou.dir/objects.a
+F:\qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\gongjianshou.dir/objects.a @CMakeFiles\gongjianshou.dir\objects1.rsp
+F:\qt\Tools\mingw1310_64\bin\g++.exe -g -mwindows -Wl,--whole-archive CMakeFiles\gongjianshou.dir/objects.a -Wl,--no-whole-archive -o gongjianshou.exe -Wl,--out-implib,libgongjianshou.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\gongjianshou.dir\linkLibs.rsp
