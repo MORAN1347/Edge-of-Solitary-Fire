@@ -351,4 +351,5 @@ CMakeFiles/gongjianshou.dir/player.cpp.obj: \
  F:/qt/6.11.0/mingw_64/include/QtCore/qendian.h \
  F:/qt/6.11.0/mingw_64/include/QtGui/qfontvariableaxis.h \
  F:/qt/6.11.0/mingw_64/include/QtGui/qfontmetrics.h \
- F:/qt/6.11.0/mingw_64/include/QtGui/QColor
+ F:/qt/6.11.0/mingw_64/include/QtGui/QPixmap \
+ F:/qt/6.11.0/mingw_64/include/QtGui/QImage

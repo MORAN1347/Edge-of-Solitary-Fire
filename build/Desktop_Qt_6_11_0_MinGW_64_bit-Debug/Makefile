@@ -247,6 +247,30 @@ gamescene.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gongjianshou.dir\build.make CMakeFiles/gongjianshou.dir/gamescene.cpp.s
 .PHONY : gamescene.cpp.s
 
+gongjianshou_autogen/EWIEGA46WW/qrc_res.obj: gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp.obj
+.PHONY : gongjianshou_autogen/EWIEGA46WW/qrc_res.obj
+
+# target to build an object file
+gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gongjianshou.dir\build.make CMakeFiles/gongjianshou.dir/gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp.obj
+.PHONY : gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp.obj
+
+gongjianshou_autogen/EWIEGA46WW/qrc_res.i: gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp.i
+.PHONY : gongjianshou_autogen/EWIEGA46WW/qrc_res.i
+
+# target to preprocess a source file
+gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gongjianshou.dir\build.make CMakeFiles/gongjianshou.dir/gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp.i
+.PHONY : gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp.i
+
+gongjianshou_autogen/EWIEGA46WW/qrc_res.s: gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp.s
+.PHONY : gongjianshou_autogen/EWIEGA46WW/qrc_res.s
+
+# target to generate assembly for a file
+gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gongjianshou.dir\build.make CMakeFiles/gongjianshou.dir/gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp.s
+.PHONY : gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp.s
+
 gongjianshou_autogen/mocs_compilation.obj: gongjianshou_autogen/mocs_compilation.cpp.obj
 .PHONY : gongjianshou_autogen/mocs_compilation.obj
 
@@ -364,6 +388,9 @@ help:
 	@echo ... gamescene.obj
 	@echo ... gamescene.i
 	@echo ... gamescene.s
+	@echo ... gongjianshou_autogen/EWIEGA46WW/qrc_res.obj
+	@echo ... gongjianshou_autogen/EWIEGA46WW/qrc_res.i
+	@echo ... gongjianshou_autogen/EWIEGA46WW/qrc_res.s
 	@echo ... gongjianshou_autogen/mocs_compilation.obj
 	@echo ... gongjianshou_autogen/mocs_compilation.i
 	@echo ... gongjianshou_autogen/mocs_compilation.s

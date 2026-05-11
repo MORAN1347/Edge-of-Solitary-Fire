@@ -24,8 +24,7 @@ set(PROJECT_SOURCES
         player.cpp
         bullet.h
         bullet.cpp
-        # 如果你做了res.qrc，把下面这行加上
-        # res.qrc
+        res.qrc
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

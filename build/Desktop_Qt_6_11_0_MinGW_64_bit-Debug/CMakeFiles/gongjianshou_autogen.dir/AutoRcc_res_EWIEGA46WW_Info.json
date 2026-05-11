@@ -1,0 +1,28 @@
+{
+	"BUILD_DIR" : "C:/Users/22914/Desktop/gongjianshou/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/gongjianshou_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/22914/Desktop/gongjianshou/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/22914/Desktop/gongjianshou/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/22914/Desktop/gongjianshou",
+	"CMAKE_SOURCE_DIR" : "C:/Users/22914/Desktop/gongjianshou",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "MinGW Makefiles",
+	"INCLUDE_DIR" : "C:/Users/22914/Desktop/gongjianshou/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/gongjianshou_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/22914/Desktop/gongjianshou/t.png",
+		"C:/Users/22914/Desktop/gongjianshou/ct.png",
+		"C:/Users/22914/Desktop/gongjianshou/menu.png",
+		"C:/Users/22914/Desktop/gongjianshou/game.png"
+	],
+	"LOCK_FILE" : "C:/Users/22914/Desktop/gongjianshou/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/CMakeFiles/gongjianshou_autogen.dir/AutoRcc_res_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "res" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_res.cpp",
+	"RCC_EXECUTABLE" : "F:/qt/6.11.0/mingw_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/22914/Desktop/gongjianshou/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/CMakeFiles/gongjianshou_autogen.dir/AutoRcc_res_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/Users/22914/Desktop/gongjianshou/res.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

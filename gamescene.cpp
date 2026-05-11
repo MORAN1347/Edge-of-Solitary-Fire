@@ -11,11 +11,11 @@ GameScene::GameScene(QWidget *parent, bool isPVP)
     this->setFixedSize(800, 400);
     this->setWindowTitle("战斗中");
 
-    bgPixmap.load(":/bg.png");
+    bgPixmap.load(":/game.png");
 
     // 初始化玩家
-    player1 = new Player(50, height()/2 - 25, Qt::blue);
-    player2 = new Player(700, height()/2 - 25, Qt::red);
+    player1 = new Player(50, height()/2 - 25, Qt::blue, true);
+    player2 = new Player(700, height()/2 - 25, Qt::red, false);
 
     // 按键初始化
     keyW=keyS=keyA=keyD=keySpace = false;

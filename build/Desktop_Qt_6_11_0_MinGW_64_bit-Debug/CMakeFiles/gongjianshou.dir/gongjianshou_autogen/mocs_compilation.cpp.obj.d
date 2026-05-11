@@ -427,7 +427,6 @@ CMakeFiles/gongjianshou.dir/gongjianshou_autogen/mocs_compilation.cpp.obj: \
  F:/qt/6.11.0/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
  F:/qt/6.11.0/mingw_64/include/QtCore/QUrl \
  C:/Users/22914/Desktop/gongjianshou/player.h \
- F:/qt/6.11.0/mingw_64/include/QtGui/QColor \
  C:/Users/22914/Desktop/gongjianshou/bullet.h \
  F:/qt/6.11.0/mingw_64/include/QtCore/qtmochelpers.h \
  F:/qt/6.11.0/mingw_64/include/QtCore/qtmocconstants.h \
@@ -439,9 +438,4 @@ CMakeFiles/gongjianshou.dir/gongjianshou_autogen/mocs_compilation.cpp.obj: \
  F:/qt/6.11.0/mingw_64/include/QtWidgets/qtabwidget.h \
  F:/qt/6.11.0/mingw_64/include/QtWidgets/QPushButton \
  F:/qt/6.11.0/mingw_64/include/QtWidgets/qpushbutton.h \
- F:/qt/6.11.0/mingw_64/include/QtWidgets/qabstractbutton.h \
- F:/qt/6.11.0/mingw_64/include/QtWidgets/QVBoxLayout \
- F:/qt/6.11.0/mingw_64/include/QtWidgets/qboxlayout.h \
- F:/qt/6.11.0/mingw_64/include/QtWidgets/qlayout.h \
- F:/qt/6.11.0/mingw_64/include/QtWidgets/qlayoutitem.h \
- F:/qt/6.11.0/mingw_64/include/QtWidgets/qgridlayout.h
+ F:/qt/6.11.0/mingw_64/include/QtWidgets/qabstractbutton.h

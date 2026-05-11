@@ -59,7 +59,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 32,
+				"line" : 31,
 				"parent" : 0
 			},
 			{
@@ -83,13 +83,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 67,
+				"line" : 66,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 49,
+				"line" : 48,
 				"parent" : 0
 			},
 			{
@@ -507,7 +507,8 @@
 				2,
 				6,
 				8,
-				10
+				10,
+				14
 			]
 		}
 	],
@@ -648,7 +649,8 @@
 				2,
 				6,
 				8,
-				10
+				10,
+				14
 			]
 		},
 		{
@@ -659,7 +661,7 @@
 				5,
 				7,
 				9,
-				11
+				12
 			]
 		},
 		{
@@ -670,17 +672,25 @@
 			]
 		},
 		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				11
+			]
+		},
+		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				12
+				13
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				13
+				15,
+				16
 			]
 		}
 	],
@@ -749,6 +759,11 @@
 			"sourceGroupIndex" : 0
 		},
 		{
+			"backtrace" : 4,
+			"path" : "res.qrc",
+			"sourceGroupIndex" : 3
+		},
+		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/gongjianshou_autogen/include/ui_mainwindow.h",
@@ -758,13 +773,26 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/gongjianshou_autogen/timestamp",
-			"sourceGroupIndex" : 3
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp",
+			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/gongjianshou_autogen/timestamp.rule",
-			"sourceGroupIndex" : 4
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp.rule",
+			"sourceGroupIndex" : 5
 		}
 	],
 	"type" : "EXECUTABLE"

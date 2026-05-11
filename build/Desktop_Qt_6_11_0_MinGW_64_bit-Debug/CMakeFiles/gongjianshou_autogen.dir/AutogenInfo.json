@@ -395,7 +395,8 @@
 		"F:/qt/6.11.0/mingw_64/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake",
 		"F:/qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
 		"F:/qt/6.11.0/mingw_64/lib/cmake/Qt6/Qt6Dependencies.cmake",
-		"F:/qt/Tools/CMake_64/share/cmake-3.30/Modules/GNUInstallDirs.cmake"
+		"F:/qt/Tools/CMake_64/share/cmake-3.30/Modules/GNUInstallDirs.cmake",
+		"C:/Users/22914/Desktop/gongjianshou/res.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "C:/Users/22914/Desktop/gongjianshou",
 	"CROSS_CONFIG" : false,

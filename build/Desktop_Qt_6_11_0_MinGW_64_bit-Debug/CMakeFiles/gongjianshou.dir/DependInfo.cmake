@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "gongjianshou_autogen/timestamp" "custom" "gongjianshou_autogen/deps"
   "C:/Users/22914/Desktop/gongjianshou/bullet.cpp" "CMakeFiles/gongjianshou.dir/bullet.cpp.obj" "gcc" "CMakeFiles/gongjianshou.dir/bullet.cpp.obj.d"
   "C:/Users/22914/Desktop/gongjianshou/gamescene.cpp" "CMakeFiles/gongjianshou.dir/gamescene.cpp.obj" "gcc" "CMakeFiles/gongjianshou.dir/gamescene.cpp.obj.d"
+  "C:/Users/22914/Desktop/gongjianshou/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp" "CMakeFiles/gongjianshou.dir/gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp.obj" "gcc" "CMakeFiles/gongjianshou.dir/gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp.obj.d"
   "C:/Users/22914/Desktop/gongjianshou/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/gongjianshou_autogen/mocs_compilation.cpp" "CMakeFiles/gongjianshou.dir/gongjianshou_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/gongjianshou.dir/gongjianshou_autogen/mocs_compilation.cpp.obj.d"
   "C:/Users/22914/Desktop/gongjianshou/main.cpp" "CMakeFiles/gongjianshou.dir/main.cpp.obj" "gcc" "CMakeFiles/gongjianshou.dir/main.cpp.obj.d"
   "C:/Users/22914/Desktop/gongjianshou/mainwindow.cpp" "CMakeFiles/gongjianshou.dir/mainwindow.cpp.obj" "gcc" "CMakeFiles/gongjianshou.dir/mainwindow.cpp.obj.d"

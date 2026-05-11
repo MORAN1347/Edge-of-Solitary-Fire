@@ -3,7 +3,7 @@
 
 #include <QMainWindow>
 #include <QPushButton>
-#include <QVBoxLayout>
+#include <QPainter>
 
 class MainWindow : public QMainWindow
 {
@@ -16,6 +16,10 @@ public:
 private slots:
     void onPVPClicked();   // 双人模式
     void onPVEClicked();   // 人机模式
+
+protected:
+    // 关键：画背景图
+    void paintEvent(QPaintEvent *) override;
 
 private:
     QPushButton *btn_pvp;

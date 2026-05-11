@@ -155,7 +155,6 @@ C:/Users/22914/Desktop/gongjianshou/gamescene.h
  mdp:F:/qt/6.11.0/mingw_64/include/QtCore/qversiontagging.h
  mdp:F:/qt/6.11.0/mingw_64/include/QtCore/qxptype_traits.h
  mdp:F:/qt/6.11.0/mingw_64/include/QtCore/qyieldcpu.h
- mdp:F:/qt/6.11.0/mingw_64/include/QtGui/QColor
  mdp:F:/qt/6.11.0/mingw_64/include/QtGui/QKeyEvent
  mdp:F:/qt/6.11.0/mingw_64/include/QtGui/QPainter
  mdp:F:/qt/6.11.0/mingw_64/include/QtGui/QPixmap
@@ -556,6 +555,7 @@ C:/Users/22914/Desktop/gongjianshou/mainwindow.h
  mdp:F:/qt/6.11.0/mingw_64/include/QtCore/qversiontagging.h
  mdp:F:/qt/6.11.0/mingw_64/include/QtCore/qxptype_traits.h
  mdp:F:/qt/6.11.0/mingw_64/include/QtCore/qyieldcpu.h
+ mdp:F:/qt/6.11.0/mingw_64/include/QtGui/QPainter
  mdp:F:/qt/6.11.0/mingw_64/include/QtGui/qaction.h
  mdp:F:/qt/6.11.0/mingw_64/include/QtGui/qbitmap.h
  mdp:F:/qt/6.11.0/mingw_64/include/QtGui/qbrush.h
@@ -569,13 +569,16 @@ C:/Users/22914/Desktop/gongjianshou/mainwindow.h
  mdp:F:/qt/6.11.0/mingw_64/include/QtGui/qimage.h
  mdp:F:/qt/6.11.0/mingw_64/include/QtGui/qkeysequence.h
  mdp:F:/qt/6.11.0/mingw_64/include/QtGui/qpaintdevice.h
+ mdp:F:/qt/6.11.0/mingw_64/include/QtGui/qpainter.h
  mdp:F:/qt/6.11.0/mingw_64/include/QtGui/qpalette.h
+ mdp:F:/qt/6.11.0/mingw_64/include/QtGui/qpen.h
  mdp:F:/qt/6.11.0/mingw_64/include/QtGui/qpixelformat.h
  mdp:F:/qt/6.11.0/mingw_64/include/QtGui/qpixmap.h
  mdp:F:/qt/6.11.0/mingw_64/include/QtGui/qpolygon.h
  mdp:F:/qt/6.11.0/mingw_64/include/QtGui/qregion.h
  mdp:F:/qt/6.11.0/mingw_64/include/QtGui/qrgb.h
  mdp:F:/qt/6.11.0/mingw_64/include/QtGui/qrgba64.h
+ mdp:F:/qt/6.11.0/mingw_64/include/QtGui/qtextoption.h
  mdp:F:/qt/6.11.0/mingw_64/include/QtGui/qtgui-config.h
  mdp:F:/qt/6.11.0/mingw_64/include/QtGui/qtguiexports.h
  mdp:F:/qt/6.11.0/mingw_64/include/QtGui/qtguiglobal.h
@@ -584,12 +587,7 @@ C:/Users/22914/Desktop/gongjianshou/mainwindow.h
  mdp:F:/qt/6.11.0/mingw_64/include/QtGui/qwindowdefs_win.h
  mdp:F:/qt/6.11.0/mingw_64/include/QtWidgets/QMainWindow
  mdp:F:/qt/6.11.0/mingw_64/include/QtWidgets/QPushButton
- mdp:F:/qt/6.11.0/mingw_64/include/QtWidgets/QVBoxLayout
  mdp:F:/qt/6.11.0/mingw_64/include/QtWidgets/qabstractbutton.h
- mdp:F:/qt/6.11.0/mingw_64/include/QtWidgets/qboxlayout.h
- mdp:F:/qt/6.11.0/mingw_64/include/QtWidgets/qgridlayout.h
- mdp:F:/qt/6.11.0/mingw_64/include/QtWidgets/qlayout.h
- mdp:F:/qt/6.11.0/mingw_64/include/QtWidgets/qlayoutitem.h
  mdp:F:/qt/6.11.0/mingw_64/include/QtWidgets/qmainwindow.h
  mdp:F:/qt/6.11.0/mingw_64/include/QtWidgets/qpushbutton.h
  mdp:F:/qt/6.11.0/mingw_64/include/QtWidgets/qsizepolicy.h

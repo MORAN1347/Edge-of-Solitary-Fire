@@ -75,11 +75,22 @@ gongjianshou_autogen/timestamp: CMakeFiles/gongjianshou.dir/compiler_depend.ts
 	F:\qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen C:/Users/22914/Desktop/gongjianshou/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/CMakeFiles/gongjianshou_autogen.dir/AutogenInfo.json Debug
 	F:\qt\Tools\CMake_64\bin\cmake.exe -E touch C:/Users/22914/Desktop/gongjianshou/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/gongjianshou_autogen/timestamp
 
+gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp: C:/Users/22914/Desktop/gongjianshou/res.qrc
+gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp: CMakeFiles/gongjianshou_autogen.dir/AutoRcc_res_EWIEGA46WW_Info.json
+gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp: C:/Users/22914/Desktop/gongjianshou/t.png
+gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp: C:/Users/22914/Desktop/gongjianshou/ct.png
+gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp: C:/Users/22914/Desktop/gongjianshou/menu.png
+gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp: C:/Users/22914/Desktop/gongjianshou/game.png
+gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp: F:/qt/6.11.0/mingw_64/bin/rcc.exe
+gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp: F:/qt/6.11.0/mingw_64/bin/rcc.exe
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\22914\Desktop\gongjianshou\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for res.qrc"
+	F:\qt\Tools\CMake_64\bin\cmake.exe -E cmake_autorcc C:/Users/22914/Desktop/gongjianshou/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/CMakeFiles/gongjianshou_autogen.dir/AutoRcc_res_EWIEGA46WW_Info.json Debug
+
 CMakeFiles/gongjianshou.dir/gongjianshou_autogen/mocs_compilation.cpp.obj: CMakeFiles/gongjianshou.dir/flags.make
 CMakeFiles/gongjianshou.dir/gongjianshou_autogen/mocs_compilation.cpp.obj: CMakeFiles/gongjianshou.dir/includes_CXX.rsp
 CMakeFiles/gongjianshou.dir/gongjianshou_autogen/mocs_compilation.cpp.obj: gongjianshou_autogen/mocs_compilation.cpp
 CMakeFiles/gongjianshou.dir/gongjianshou_autogen/mocs_compilation.cpp.obj: CMakeFiles/gongjianshou.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\22914\Desktop\gongjianshou\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gongjianshou.dir/gongjianshou_autogen/mocs_compilation.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\22914\Desktop\gongjianshou\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/gongjianshou.dir/gongjianshou_autogen/mocs_compilation.cpp.obj"
 	F:\qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gongjianshou.dir/gongjianshou_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\gongjianshou.dir\gongjianshou_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\gongjianshou.dir\gongjianshou_autogen\mocs_compilation.cpp.obj -c C:\Users\22914\Desktop\gongjianshou\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\gongjianshou_autogen\mocs_compilation.cpp
 
 CMakeFiles/gongjianshou.dir/gongjianshou_autogen/mocs_compilation.cpp.i: cmake_force
@@ -94,7 +105,7 @@ CMakeFiles/gongjianshou.dir/main.cpp.obj: CMakeFiles/gongjianshou.dir/flags.make
 CMakeFiles/gongjianshou.dir/main.cpp.obj: CMakeFiles/gongjianshou.dir/includes_CXX.rsp
 CMakeFiles/gongjianshou.dir/main.cpp.obj: C:/Users/22914/Desktop/gongjianshou/main.cpp
 CMakeFiles/gongjianshou.dir/main.cpp.obj: CMakeFiles/gongjianshou.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\22914\Desktop\gongjianshou\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/gongjianshou.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\22914\Desktop\gongjianshou\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/gongjianshou.dir/main.cpp.obj"
 	F:\qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gongjianshou.dir/main.cpp.obj -MF CMakeFiles\gongjianshou.dir\main.cpp.obj.d -o CMakeFiles\gongjianshou.dir\main.cpp.obj -c C:\Users\22914\Desktop\gongjianshou\main.cpp
 
 CMakeFiles/gongjianshou.dir/main.cpp.i: cmake_force
@@ -109,7 +120,7 @@ CMakeFiles/gongjianshou.dir/mainwindow.cpp.obj: CMakeFiles/gongjianshou.dir/flag
 CMakeFiles/gongjianshou.dir/mainwindow.cpp.obj: CMakeFiles/gongjianshou.dir/includes_CXX.rsp
 CMakeFiles/gongjianshou.dir/mainwindow.cpp.obj: C:/Users/22914/Desktop/gongjianshou/mainwindow.cpp
 CMakeFiles/gongjianshou.dir/mainwindow.cpp.obj: CMakeFiles/gongjianshou.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\22914\Desktop\gongjianshou\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/gongjianshou.dir/mainwindow.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\22914\Desktop\gongjianshou\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/gongjianshou.dir/mainwindow.cpp.obj"
 	F:\qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gongjianshou.dir/mainwindow.cpp.obj -MF CMakeFiles\gongjianshou.dir\mainwindow.cpp.obj.d -o CMakeFiles\gongjianshou.dir\mainwindow.cpp.obj -c C:\Users\22914\Desktop\gongjianshou\mainwindow.cpp
 
 CMakeFiles/gongjianshou.dir/mainwindow.cpp.i: cmake_force
@@ -124,7 +135,7 @@ CMakeFiles/gongjianshou.dir/gamescene.cpp.obj: CMakeFiles/gongjianshou.dir/flags
 CMakeFiles/gongjianshou.dir/gamescene.cpp.obj: CMakeFiles/gongjianshou.dir/includes_CXX.rsp
 CMakeFiles/gongjianshou.dir/gamescene.cpp.obj: C:/Users/22914/Desktop/gongjianshou/gamescene.cpp
 CMakeFiles/gongjianshou.dir/gamescene.cpp.obj: CMakeFiles/gongjianshou.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\22914\Desktop\gongjianshou\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/gongjianshou.dir/gamescene.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\22914\Desktop\gongjianshou\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/gongjianshou.dir/gamescene.cpp.obj"
 	F:\qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gongjianshou.dir/gamescene.cpp.obj -MF CMakeFiles\gongjianshou.dir\gamescene.cpp.obj.d -o CMakeFiles\gongjianshou.dir\gamescene.cpp.obj -c C:\Users\22914\Desktop\gongjianshou\gamescene.cpp
 
 CMakeFiles/gongjianshou.dir/gamescene.cpp.i: cmake_force
@@ -139,7 +150,7 @@ CMakeFiles/gongjianshou.dir/player.cpp.obj: CMakeFiles/gongjianshou.dir/flags.ma
 CMakeFiles/gongjianshou.dir/player.cpp.obj: CMakeFiles/gongjianshou.dir/includes_CXX.rsp
 CMakeFiles/gongjianshou.dir/player.cpp.obj: C:/Users/22914/Desktop/gongjianshou/player.cpp
 CMakeFiles/gongjianshou.dir/player.cpp.obj: CMakeFiles/gongjianshou.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\22914\Desktop\gongjianshou\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/gongjianshou.dir/player.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\22914\Desktop\gongjianshou\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/gongjianshou.dir/player.cpp.obj"
 	F:\qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gongjianshou.dir/player.cpp.obj -MF CMakeFiles\gongjianshou.dir\player.cpp.obj.d -o CMakeFiles\gongjianshou.dir\player.cpp.obj -c C:\Users\22914\Desktop\gongjianshou\player.cpp
 
 CMakeFiles/gongjianshou.dir/player.cpp.i: cmake_force
@@ -154,7 +165,7 @@ CMakeFiles/gongjianshou.dir/bullet.cpp.obj: CMakeFiles/gongjianshou.dir/flags.ma
 CMakeFiles/gongjianshou.dir/bullet.cpp.obj: CMakeFiles/gongjianshou.dir/includes_CXX.rsp
 CMakeFiles/gongjianshou.dir/bullet.cpp.obj: C:/Users/22914/Desktop/gongjianshou/bullet.cpp
 CMakeFiles/gongjianshou.dir/bullet.cpp.obj: CMakeFiles/gongjianshou.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\22914\Desktop\gongjianshou\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/gongjianshou.dir/bullet.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\22914\Desktop\gongjianshou\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/gongjianshou.dir/bullet.cpp.obj"
 	F:\qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gongjianshou.dir/bullet.cpp.obj -MF CMakeFiles\gongjianshou.dir\bullet.cpp.obj.d -o CMakeFiles\gongjianshou.dir\bullet.cpp.obj -c C:\Users\22914\Desktop\gongjianshou\bullet.cpp
 
 CMakeFiles/gongjianshou.dir/bullet.cpp.i: cmake_force
@@ -165,6 +176,21 @@ CMakeFiles/gongjianshou.dir/bullet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gongjianshou.dir/bullet.cpp.s"
 	F:\qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22914\Desktop\gongjianshou\bullet.cpp -o CMakeFiles\gongjianshou.dir\bullet.cpp.s
 
+CMakeFiles/gongjianshou.dir/gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp.obj: CMakeFiles/gongjianshou.dir/flags.make
+CMakeFiles/gongjianshou.dir/gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp.obj: CMakeFiles/gongjianshou.dir/includes_CXX.rsp
+CMakeFiles/gongjianshou.dir/gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp.obj: gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp
+CMakeFiles/gongjianshou.dir/gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp.obj: CMakeFiles/gongjianshou.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\22914\Desktop\gongjianshou\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/gongjianshou.dir/gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp.obj"
+	F:\qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gongjianshou.dir/gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp.obj -MF CMakeFiles\gongjianshou.dir\gongjianshou_autogen\EWIEGA46WW\qrc_res.cpp.obj.d -o CMakeFiles\gongjianshou.dir\gongjianshou_autogen\EWIEGA46WW\qrc_res.cpp.obj -c C:\Users\22914\Desktop\gongjianshou\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\gongjianshou_autogen\EWIEGA46WW\qrc_res.cpp
+
+CMakeFiles/gongjianshou.dir/gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gongjianshou.dir/gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp.i"
+	F:\qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\22914\Desktop\gongjianshou\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\gongjianshou_autogen\EWIEGA46WW\qrc_res.cpp > CMakeFiles\gongjianshou.dir\gongjianshou_autogen\EWIEGA46WW\qrc_res.cpp.i
+
+CMakeFiles/gongjianshou.dir/gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gongjianshou.dir/gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp.s"
+	F:\qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\22914\Desktop\gongjianshou\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\gongjianshou_autogen\EWIEGA46WW\qrc_res.cpp -o CMakeFiles\gongjianshou.dir\gongjianshou_autogen\EWIEGA46WW\qrc_res.cpp.s
+
 # Object files for target gongjianshou
 gongjianshou_OBJECTS = \
 "CMakeFiles/gongjianshou.dir/gongjianshou_autogen/mocs_compilation.cpp.obj" \
@@ -172,7 +198,8 @@ gongjianshou_OBJECTS = \
 "CMakeFiles/gongjianshou.dir/mainwindow.cpp.obj" \
 "CMakeFiles/gongjianshou.dir/gamescene.cpp.obj" \
 "CMakeFiles/gongjianshou.dir/player.cpp.obj" \
-"CMakeFiles/gongjianshou.dir/bullet.cpp.obj"
+"CMakeFiles/gongjianshou.dir/bullet.cpp.obj" \
+"CMakeFiles/gongjianshou.dir/gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp.obj"
 
 # External object files for target gongjianshou
 gongjianshou_EXTERNAL_OBJECTS =
@@ -183,6 +210,7 @@ gongjianshou.exe: CMakeFiles/gongjianshou.dir/mainwindow.cpp.obj
 gongjianshou.exe: CMakeFiles/gongjianshou.dir/gamescene.cpp.obj
 gongjianshou.exe: CMakeFiles/gongjianshou.dir/player.cpp.obj
 gongjianshou.exe: CMakeFiles/gongjianshou.dir/bullet.cpp.obj
+gongjianshou.exe: CMakeFiles/gongjianshou.dir/gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp.obj
 gongjianshou.exe: CMakeFiles/gongjianshou.dir/build.make
 gongjianshou.exe: F:/qt/6.11.0/mingw_64/lib/libQt6Widgets.a
 gongjianshou.exe: F:/qt/6.11.0/mingw_64/lib/libQt6Multimedia.a
@@ -193,7 +221,7 @@ gongjianshou.exe: F:/qt/6.11.0/mingw_64/lib/libQt6EntryPoint.a
 gongjianshou.exe: CMakeFiles/gongjianshou.dir/linkLibs.rsp
 gongjianshou.exe: CMakeFiles/gongjianshou.dir/objects1.rsp
 gongjianshou.exe: CMakeFiles/gongjianshou.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\22914\Desktop\gongjianshou\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable gongjianshou.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\22914\Desktop\gongjianshou\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable gongjianshou.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\gongjianshou.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -204,6 +232,7 @@ CMakeFiles/gongjianshou.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles\gongjianshou.dir\cmake_clean.cmake
 .PHONY : CMakeFiles/gongjianshou.dir/clean
 
+CMakeFiles/gongjianshou.dir/depend: gongjianshou_autogen/EWIEGA46WW/qrc_res.cpp
 CMakeFiles/gongjianshou.dir/depend: gongjianshou_autogen/timestamp
 	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\22914\Desktop\gongjianshou C:\Users\22914\Desktop\gongjianshou C:\Users\22914\Desktop\gongjianshou\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug C:\Users\22914\Desktop\gongjianshou\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug C:\Users\22914\Desktop\gongjianshou\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles\gongjianshou.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/gongjianshou.dir/depend

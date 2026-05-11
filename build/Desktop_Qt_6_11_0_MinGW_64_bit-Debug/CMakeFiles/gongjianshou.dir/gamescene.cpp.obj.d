@@ -426,5 +426,4 @@ CMakeFiles/gongjianshou.dir/gamescene.cpp.obj: \
  F:/qt/6.11.0/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
  F:/qt/6.11.0/mingw_64/include/QtCore/QUrl \
  C:\Users\22914\Desktop\gongjianshou\player.h \
- F:/qt/6.11.0/mingw_64/include/QtGui/QColor \
  C:\Users\22914\Desktop\gongjianshou\bullet.h

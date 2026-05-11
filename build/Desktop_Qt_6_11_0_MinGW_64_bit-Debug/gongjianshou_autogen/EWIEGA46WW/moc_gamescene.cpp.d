@@ -149,7 +149,6 @@ C:/Users/22914/Desktop/gongjianshou/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/g
   F:/qt/6.11.0/mingw_64/include/QtCore/qversiontagging.h \
   F:/qt/6.11.0/mingw_64/include/QtCore/qxptype_traits.h \
   F:/qt/6.11.0/mingw_64/include/QtCore/qyieldcpu.h \
-  F:/qt/6.11.0/mingw_64/include/QtGui/QColor \
   F:/qt/6.11.0/mingw_64/include/QtGui/QKeyEvent \
   F:/qt/6.11.0/mingw_64/include/QtGui/QPainter \
   F:/qt/6.11.0/mingw_64/include/QtGui/QPixmap \

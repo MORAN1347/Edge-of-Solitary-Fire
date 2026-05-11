@@ -128,6 +128,7 @@ C:/Users/22914/Desktop/gongjianshou/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/g
   F:/qt/6.11.0/mingw_64/include/QtCore/qversiontagging.h \
   F:/qt/6.11.0/mingw_64/include/QtCore/qxptype_traits.h \
   F:/qt/6.11.0/mingw_64/include/QtCore/qyieldcpu.h \
+  F:/qt/6.11.0/mingw_64/include/QtGui/QPainter \
   F:/qt/6.11.0/mingw_64/include/QtGui/qaction.h \
   F:/qt/6.11.0/mingw_64/include/QtGui/qbitmap.h \
   F:/qt/6.11.0/mingw_64/include/QtGui/qbrush.h \
@@ -141,13 +142,16 @@ C:/Users/22914/Desktop/gongjianshou/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/g
   F:/qt/6.11.0/mingw_64/include/QtGui/qimage.h \
   F:/qt/6.11.0/mingw_64/include/QtGui/qkeysequence.h \
   F:/qt/6.11.0/mingw_64/include/QtGui/qpaintdevice.h \
+  F:/qt/6.11.0/mingw_64/include/QtGui/qpainter.h \
   F:/qt/6.11.0/mingw_64/include/QtGui/qpalette.h \
+  F:/qt/6.11.0/mingw_64/include/QtGui/qpen.h \
   F:/qt/6.11.0/mingw_64/include/QtGui/qpixelformat.h \
   F:/qt/6.11.0/mingw_64/include/QtGui/qpixmap.h \
   F:/qt/6.11.0/mingw_64/include/QtGui/qpolygon.h \
   F:/qt/6.11.0/mingw_64/include/QtGui/qregion.h \
   F:/qt/6.11.0/mingw_64/include/QtGui/qrgb.h \
   F:/qt/6.11.0/mingw_64/include/QtGui/qrgba64.h \
+  F:/qt/6.11.0/mingw_64/include/QtGui/qtextoption.h \
   F:/qt/6.11.0/mingw_64/include/QtGui/qtgui-config.h \
   F:/qt/6.11.0/mingw_64/include/QtGui/qtguiexports.h \
   F:/qt/6.11.0/mingw_64/include/QtGui/qtguiglobal.h \
@@ -156,12 +160,7 @@ C:/Users/22914/Desktop/gongjianshou/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/g
   F:/qt/6.11.0/mingw_64/include/QtGui/qwindowdefs_win.h \
   F:/qt/6.11.0/mingw_64/include/QtWidgets/QMainWindow \
   F:/qt/6.11.0/mingw_64/include/QtWidgets/QPushButton \
-  F:/qt/6.11.0/mingw_64/include/QtWidgets/QVBoxLayout \
   F:/qt/6.11.0/mingw_64/include/QtWidgets/qabstractbutton.h \
-  F:/qt/6.11.0/mingw_64/include/QtWidgets/qboxlayout.h \
-  F:/qt/6.11.0/mingw_64/include/QtWidgets/qgridlayout.h \
-  F:/qt/6.11.0/mingw_64/include/QtWidgets/qlayout.h \
-  F:/qt/6.11.0/mingw_64/include/QtWidgets/qlayoutitem.h \
   F:/qt/6.11.0/mingw_64/include/QtWidgets/qmainwindow.h \
   F:/qt/6.11.0/mingw_64/include/QtWidgets/qpushbutton.h \
   F:/qt/6.11.0/mingw_64/include/QtWidgets/qsizepolicy.h \
