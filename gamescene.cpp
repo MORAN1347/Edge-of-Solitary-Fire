@@ -1,9 +1,12 @@
-
 #include "gamescene.h"
 #include "player.h"
 #include "bullet.h"
 #include <QKeyEvent>
 #include <QMessageBox>
+#include <QPushButton>
+#include <QVBoxLayout>
+#include <QLabel>
+#include <QDialog>
 
 GameScene::GameScene(QWidget *parent, bool isPVP)
     : QWidget(parent), isPVPMode(isPVP)
@@ -34,9 +37,38 @@ GameScene::GameScene(QWidget *parent, bool isPVP)
     }
 }
 
+GameScene::~GameScene()
+{
+    // 停止并释放定时器
+    if (timer) {
+        timer->stop();
+        delete timer;
+        timer = nullptr;
+    }
+
+    // 释放所有子弹对象
+    qDeleteAll(bullets);
+    bullets.clear();
+
+    // 释放玩家对象
+    delete player1;
+    delete player2;
+}
+
 void GameScene::paintEvent(QPaintEvent *)
 {
     QPainter p(this);
+
+    // 游戏开始提示
+    if(timer->remainingTime() > 2500){ // 前2.5秒显示
+        p.setPen(QColor(255,80,80));
+        QFont f = p.font();
+        f.setBold(true);
+        f.setPointSize(40);
+        p.setFont(f);
+        p.drawText(rect(), Qt::AlignCenter, "FIGHT!");
+    }
+
     p.setRenderHint(QPainter::Antialiasing);
 
     if(!bgPixmap.isNull()){
@@ -49,26 +81,32 @@ void GameScene::paintEvent(QPaintEvent *)
     player1->draw(p);
     player2->draw(p);
 
-    // 画子弹
     for(Bullet *b : bullets){
-        b->draw(p);
+        if(b->isHit){
+            p.setBrush(Qt::red);
+            p.drawEllipse(b->x-10, b->y-10, 20, 20);
+        } else {
+            b->draw(p);
+        }
     }
 
-    // 玩家1血量条
-    p.setBrush(Qt::darkRed);
-    p.drawRect(20, 20, 100, 15);
-    p.setBrush(Qt::green);
-    p.drawRect(20, 20, player1->hp, 15);
+    // 玩家1血条
     p.setPen(Qt::white);
-    p.drawText(25, 32, "玩家1");
+    p.setBrush(QColor(50,50,50));
+    p.drawRect(20, 20, 200, 18);
+    p.setBrush(Qt::red);
+    p.drawRect(20, 20, player1->hp * 2, 18);
+    p.setPen(Qt::black);
+    p.drawText(20, 20, 200, 18, Qt::AlignCenter, "玩家1");
 
-    // 玩家2血量条
-    p.setBrush(Qt::darkRed);
-    p.drawRect(width()-120, 20, 100, 15);
-    p.setBrush(Qt::green);
-    p.drawRect(width()-120, 20, player2->hp, 15);
+    // 玩家2血条
     p.setPen(Qt::white);
-    p.drawText(width()-115, 32, "玩家2");
+    p.setBrush(QColor(50,50,50));
+    p.drawRect(this->width() - 220, 20, 200, 18);
+    p.setBrush(Qt::red);
+    p.drawRect(this->width() - 220, 20, player2->hp * 2, 18);
+    p.setPen(Qt::black);
+    p.drawText(this->width() - 220, 20, 200, 18, Qt::AlignCenter, isPVPMode ? "玩家2" : "AI");
 }
 
 void GameScene::keyPressEvent(QKeyEvent *e)
@@ -147,6 +185,7 @@ void GameScene::gameLoop()
             b->y > player1->y && b->y < player1->y+50)
         {
             player1->hp -= 10;
+            b->isHit=true;
             bullets.removeAt(i);
             delete b;
             i--;
@@ -157,6 +196,7 @@ void GameScene::gameLoop()
             b->y > player2->y && b->y < player2->y+50)
         {
             player2->hp -=10;
+            b->isHit=true;
             bullets.removeAt(i);
             delete b;
             i--;
@@ -194,6 +234,14 @@ void GameScene::aiLogic()
 // 胜负弹窗
 void GameScene::showGameOver(bool p1Win)
 {
+    timer->stop();
+
+    QDialog *dialog = new QDialog(this);
+    dialog->setWindowTitle("游戏结束");
+    dialog->setFixedSize(300, 220);
+    dialog->setStyleSheet("background-color: #222; color: white;");
+
+    QLabel *label = new QLabel(dialog);
     QString msg;
     if(p1Win){
         if(isPVPMode) msg = "玩家1 胜利！";
@@ -202,7 +250,40 @@ void GameScene::showGameOver(bool p1Win)
         if(isPVPMode) msg = "玩家2 胜利！";
         else msg = "你被AI击败了...";
     }
+    label->setText(msg);
+    label->setStyleSheet("font-size: 18px; color: #4CAF50;");
+    label->setAlignment(Qt::AlignCenter);
 
-    QMessageBox::information(this, "游戏结束", msg);
-    this->close();
+    QPushButton *btnRestart = new QPushButton("再来一局", dialog);
+    QPushButton *btnBackMenu = new QPushButton("返回主菜单", dialog);
+
+    btnRestart->setStyleSheet("background-color: #4CAF50; color: white; padding: 8px; border-radius: 4px;");
+    btnBackMenu->setStyleSheet("background-color: #f44336; color: white; padding: 8px; border-radius: 4px;");
+
+    QVBoxLayout *layout = new QVBoxLayout(dialog);
+    layout->addWidget(label);
+    layout->addWidget(btnRestart);
+    layout->addWidget(btnBackMenu);
+    dialog->setLayout(layout);
+
+    // 再来一局
+    connect(btnRestart, &QPushButton::clicked, dialog, [=](){
+        dialog->accept();
+        this->close();
+        this->deleteLater();
+
+        GameScene *newScene = new GameScene(nullptr, isPVPMode);
+        connect(newScene, &GameScene::gameFinished, qobject_cast<QWidget*>(this->parent()), &QWidget::show);
+        newScene->show();
+    });
+
+    // 返回主菜单
+    connect(btnBackMenu, &QPushButton::clicked, dialog, [=](){
+        dialog->accept();
+        emit gameFinished();  // 通知主窗口回来
+        this->close();        // 关闭游戏场景
+    });
+
+    dialog->exec();
+    delete dialog;
 }

@@ -39,21 +39,24 @@ template <> constexpr inline auto GameScene::qt_create_metaobjectdata<qt_meta_ta
     namespace QMC = QtMocConstants;
     QtMocHelpers::StringRefStorage qt_stringData {
         "GameScene",
-        "gameLoop",
+        "gameFinished",
         "",
+        "gameLoop",
         "aiLogic",
         "showGameOver",
         "p1Win"
     };
 
     QtMocHelpers::UintData qt_methods {
+        // Signal 'gameFinished'
+        QtMocHelpers::SignalData<void()>(1, 2, QMC::AccessPublic, QMetaType::Void),
         // Slot 'gameLoop'
-        QtMocHelpers::SlotData<void()>(1, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'aiLogic'
         QtMocHelpers::SlotData<void()>(3, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'aiLogic'
+        QtMocHelpers::SlotData<void()>(4, 2, QMC::AccessPrivate, QMetaType::Void),
         // Slot 'showGameOver'
-        QtMocHelpers::SlotData<void(bool)>(4, 2, QMC::AccessPrivate, QMetaType::Void, {{
-            { QMetaType::Bool, 5 },
+        QtMocHelpers::SlotData<void(bool)>(5, 2, QMC::AccessPrivate, QMetaType::Void, {{
+            { QMetaType::Bool, 6 },
         }}),
     };
     QtMocHelpers::UintData qt_properties {
@@ -78,11 +81,16 @@ void GameScene::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
     auto *_t = static_cast<GameScene *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
-        case 0: _t->gameLoop(); break;
-        case 1: _t->aiLogic(); break;
-        case 2: _t->showGameOver((*reinterpret_cast<std::add_pointer_t<bool>>(_a[1]))); break;
+        case 0: _t->gameFinished(); break;
+        case 1: _t->gameLoop(); break;
+        case 2: _t->aiLogic(); break;
+        case 3: _t->showGameOver((*reinterpret_cast<std::add_pointer_t<bool>>(_a[1]))); break;
         default: ;
         }
+    }
+    if (_c == QMetaObject::IndexOfMethod) {
+        if (QtMocHelpers::indexOfMethod<void (GameScene::*)()>(_a, &GameScene::gameFinished, 0))
+            return;
     }
 }
 
@@ -105,15 +113,21 @@ int GameScene::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 3)
+        if (_id < 4)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 3;
+        _id -= 4;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 3)
+        if (_id < 4)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 3;
+        _id -= 4;
     }
     return _id;
+}
+
+// SIGNAL 0
+void GameScene::gameFinished()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
 }
 QT_WARNING_POP

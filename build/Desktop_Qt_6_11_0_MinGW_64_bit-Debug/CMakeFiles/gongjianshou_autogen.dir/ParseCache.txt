@@ -10,6 +10,7 @@ C:/Users/22914/Desktop/gongjianshou/gamescene.h
  mdp:C:/Users/22914/Desktop/gongjianshou/player.h
  mdp:F:/qt/6.11.0/mingw_64/include/QtCore/QList
  mdp:F:/qt/6.11.0/mingw_64/include/QtCore/QObject
+ mdp:F:/qt/6.11.0/mingw_64/include/QtCore/QPoint
  mdp:F:/qt/6.11.0/mingw_64/include/QtCore/QRect
  mdp:F:/qt/6.11.0/mingw_64/include/QtCore/QSize
  mdp:F:/qt/6.11.0/mingw_64/include/QtCore/QSizeF

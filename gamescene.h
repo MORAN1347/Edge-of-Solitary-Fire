@@ -8,6 +8,7 @@
 #include <QPixmap>
 #include <QMessageBox>
 #include <QUrl>
+#include <QList>
 #include "player.h"
 #include "bullet.h"
 
@@ -16,6 +17,11 @@ class GameScene : public QWidget
     Q_OBJECT
 public:
     explicit GameScene(QWidget *parent = nullptr, bool isPVP = true);
+    ~GameScene() override;
+
+signals:
+    // 关键：游戏结束时，发送信号，通知主界面
+    void gameFinished();
 
 protected:
     void paintEvent(QPaintEvent *) override;

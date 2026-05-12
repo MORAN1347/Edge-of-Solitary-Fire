@@ -23,17 +23,20 @@ MainWindow::MainWindow(QWidget *parent)
 
     // 按钮美化样式
     btn_pvp->setStyleSheet(R"(
-        QPushButton {
-            background-color: rgba(20,20,20,180);
-            color: white;
-            border: 2px solid white;
-            border-radius: 12px;
-            font-size: 22px;
-        }
-        QPushButton:hover {
-            background-color: rgba(50,100,255,200);
-        }
-    )");
+    QPushButton {
+        background-color: rgba(30,30,45,180);
+        color: white;
+        border: 2px solid #5090ff;
+        border-radius: 16px;
+        font-size: 24px;
+        padding: 10px;
+    }
+    QPushButton:hover {
+        background-color: #5090ff;
+        border-color: white;
+        padding-left: 15px;
+    }
+)");
     btn_pve->setStyleSheet(btn_pvp->styleSheet());
 
     layout->addWidget(btn_pvp, 0, Qt::AlignCenter);
@@ -59,13 +62,27 @@ MainWindow::~MainWindow()
 void MainWindow::onPVPClicked()
 {
     GameScene *scene = new GameScene(nullptr, true);
+
+    // 游戏结束 → 回到主菜单
+    connect(scene, &GameScene::gameFinished, this, [=](){
+        this->show();       // 重新显示主界面
+        scene->deleteLater(); // 销毁游戏场景
+    });
+
     scene->show();
-    this->close();
+    this->hide(); // 只隐藏，不关闭！
 }
 
 void MainWindow::onPVEClicked()
 {
     GameScene *scene = new GameScene(nullptr, false);
+
+    // 游戏结束 → 回到主菜单
+    connect(scene, &GameScene::gameFinished, this, [=](){
+        this->show();       // 重新显示主界面
+        scene->deleteLater(); // 销毁游戏场景
+    });
+
     scene->show();
-    this->close();
+    this->hide(); // 只隐藏，不关闭！
 }

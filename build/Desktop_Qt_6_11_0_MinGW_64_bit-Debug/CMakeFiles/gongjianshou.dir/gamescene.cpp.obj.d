@@ -425,5 +425,21 @@ CMakeFiles/gongjianshou.dir/gamescene.cpp.obj: \
  F:/qt/6.11.0/mingw_64/include/QtWidgets/qdialog.h \
  F:/qt/6.11.0/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
  F:/qt/6.11.0/mingw_64/include/QtCore/QUrl \
+ F:/qt/6.11.0/mingw_64/include/QtCore/QList \
  C:\Users\22914\Desktop\gongjianshou\player.h \
- C:\Users\22914\Desktop\gongjianshou\bullet.h
+ C:\Users\22914\Desktop\gongjianshou\bullet.h \
+ F:/qt/6.11.0/mingw_64/include/QtCore/QPoint \
+ F:/qt/6.11.0/mingw_64/include/QtWidgets/QPushButton \
+ F:/qt/6.11.0/mingw_64/include/QtWidgets/qpushbutton.h \
+ F:/qt/6.11.0/mingw_64/include/QtWidgets/qabstractbutton.h \
+ F:/qt/6.11.0/mingw_64/include/QtWidgets/QVBoxLayout \
+ F:/qt/6.11.0/mingw_64/include/QtWidgets/qboxlayout.h \
+ F:/qt/6.11.0/mingw_64/include/QtWidgets/qlayout.h \
+ F:/qt/6.11.0/mingw_64/include/QtWidgets/qlayoutitem.h \
+ F:/qt/6.11.0/mingw_64/include/QtWidgets/qgridlayout.h \
+ F:/qt/6.11.0/mingw_64/include/QtWidgets/QLabel \
+ F:/qt/6.11.0/mingw_64/include/QtWidgets/qlabel.h \
+ F:/qt/6.11.0/mingw_64/include/QtWidgets/qframe.h \
+ F:/qt/6.11.0/mingw_64/include/QtGui/qpicture.h \
+ F:/qt/6.11.0/mingw_64/include/QtGui/qtextdocument.h \
+ F:/qt/6.11.0/mingw_64/include/QtWidgets/QDialog

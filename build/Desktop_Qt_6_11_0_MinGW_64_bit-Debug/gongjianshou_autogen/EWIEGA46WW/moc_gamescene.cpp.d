@@ -4,6 +4,7 @@ C:/Users/22914/Desktop/gongjianshou/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/g
   C:/Users/22914/Desktop/gongjianshou/player.h \
   F:/qt/6.11.0/mingw_64/include/QtCore/QList \
   F:/qt/6.11.0/mingw_64/include/QtCore/QObject \
+  F:/qt/6.11.0/mingw_64/include/QtCore/QPoint \
   F:/qt/6.11.0/mingw_64/include/QtCore/QRect \
   F:/qt/6.11.0/mingw_64/include/QtCore/QSize \
   F:/qt/6.11.0/mingw_64/include/QtCore/QSizeF \
